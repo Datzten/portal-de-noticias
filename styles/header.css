@@ -1,0 +1,36 @@
+header {
+    font-family: var(--font-family);
+    box-sizing: border-box;
+    max-height: 120px;
+}
+
+#primary {
+    padding-block: 20px;
+}
+
+#secondary {
+    padding-block: 14px;
+    border: solid 1px var(--stroke-color);
+    border-inline: none;
+    
+}
+
+a {
+    text-decoration:  none;
+    color: var(--tc2);
+
+}
+
+.grid-flow-col {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
