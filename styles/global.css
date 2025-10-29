@@ -1,6 +1,12 @@
-:root {
+* {
     margin: 0;
-    
+    padding: 0;
+    box-sizing: border-box;
+}    
+
+:root {
+
+
 /* var de cores */
     --brand-color-light: #60A5FA;
     --brand-color-dark: #1D4ED8;
@@ -23,6 +29,7 @@ body {
     font: var(--text-p);
     background-color: var(--bg-color);
     text-decoration:  none;
+    margin-inline: 32px;
 
 }
 
@@ -40,3 +47,6 @@ a:hover {
     color: var(--brand-color-light)
 }
 
+img {
+    max-width: 100%;
+}
