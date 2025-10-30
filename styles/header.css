@@ -2,6 +2,14 @@ header {
     font-family: var(--font-family);
     box-sizing: border-box;
     max-height: 120px;
+    
+    div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    }
+
+
 }
 
 #primary {
@@ -25,12 +33,6 @@ a {
     display: grid;
     grid-auto-flow: column;
     justify-content: space-between;
-}
-
-div {
-    display: flex;
-    align-items: center;
-    gap: 8px;
 }
 
 
