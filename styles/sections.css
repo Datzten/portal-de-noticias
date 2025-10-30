@@ -1,3 +1,29 @@
+section header {
+    padding-block: 12px 24px;
+    font: var(--text-span);
+        
+    a {
+        justify-content: space-between;
+        gap: 8px;
+        align-items: center;
+        
+        span {
+            background-image: url(../assets/svg/ArrowRight.svg);
+            height: 16px;
+            width: 16px;
+        }
+
+        &:hover span {
+            background-image: url(../assets/svg/arrow\ right\ hover.svg);
+        }
+        
+    
+    }
+    
+}
+
+
+
 #featured {
     img {
         height: 100%;
@@ -33,3 +59,28 @@
     border-bottom:  1px solid var(--stroke-color);
 }
 
+#weekly {
+    &>div {
+        grid-template-columns: repeat(4, 292px);
+    }
+    
+    img {
+        height: 160px;
+
+    }
+
+    figure {
+        padding-top: 24px;
+        position: relative;
+        
+        .content-tag {
+            position: absolute;
+            top: 32px;
+            left: 8px;
+        }
+        p {
+            margin-top: 8px;
+            font-weight: 800;
+        }
+    }
+}
